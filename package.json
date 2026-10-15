@@ -1,0 +1,28 @@
+{
+  "name": "foodloop",
+  "version": "1.0.0",
+  "description": "FoodLoop - Real-time Redis-powered food rescue and redistribution platform",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "test": "npm --prefix server run test",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "food-rescue",
+    "redis",
+    "real-time",
+    "express",
+    "react",
+    "socket.io"
+  ],
+  "author": "FoodLoop Contributors",
+  "license": "MIT"
+}
