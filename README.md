@@ -181,3 +181,5 @@ FoodLoop uses Redis as its primary datastore:
 
 ## 📜 License
 MIT © FoodLoop Open Source Initiative
+#   F O O D L O O P  
+ 
